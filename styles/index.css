@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
 * {
     margin: 0;
@@ -37,7 +37,7 @@ nav ul {
 
 nav ul li a {
     color: var(--dark-base);
-    font-size: var(--body-font-regular);
+    font-size: var(--georgia-22);
     font-weight: var(--head-font-weight);
     text-transform: uppercase;
 }
@@ -99,7 +99,8 @@ nav span {
     font-weight: bolder;   
 }
 
-.hire-btn:hover {
+.hire-btn:hover,
+.read-btn:hover {
     color: var(--primary-color);
     background: var(--dark-base);
     transition: .3s all ease-in;
@@ -109,10 +110,6 @@ nav span {
     margin-top: -10%;
 }
 
-.fa .fab {
-    height: 20px;
-    width: 20px;
-}
 
 .fa:hover, 
 .fab:hover {
@@ -130,4 +127,37 @@ nav span {
 .works-intro p {
     font-size: var(--head-font-size);
     font-weight: 900;   
+}
+
+.project-details .project-title {
+    text-transform: uppercase;
+    font-size: var(--body-font-regular);
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 6px;
+}
+
+.read-btn {
+    width: 150px;
+    border: 1px solid var(--base-color);
+    color: var(--base-color);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.project-info {
+    margin-top: -15%;
+}
+
+
+.img-left {
+    margin-left: -7px;
+}
+
+.img-top-left {
+    margin-left: -7px;
+}
+
+.more {
+    color: var(--base-color);
 }

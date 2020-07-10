@@ -21,6 +21,20 @@
     --primary-color: #FFFFFF;
 }
 
+.titles {
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--small-head-size);
+    font-weight: bold;
+}
+
+/* .btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--georgia-22);
+    font-weight: bold;
+} */
+
+/* utilities */
+
 /* hero section starts here */
 .nav-brand img  {
     width: 101px;
@@ -29,6 +43,8 @@
 .nav-brand {
     margin-top: -2%;
 }
+
+
 
 nav ul {
     display: flex;
@@ -65,15 +81,15 @@ nav span {
 }
 
 .hero-intro span, .stroke {
-    text-transform: uppercase;
     -webkit-text-fill-color: var(--primary-color);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--dark-base);
 }
 
 .about-intro p {
-    -webkit-text-fill-color: rgb(219, 234, 240);
-    -webkit-text-stroke-width: 1px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: rgb(221, 231, 235);
+    -webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color: var(--dark-base);
 }
 
@@ -155,6 +171,7 @@ nav span {
 
 .project-info {
     margin-top: -15%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .img-left {
@@ -187,4 +204,66 @@ nav span {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    padding-bottom: 8%;
 }
+
+.about-intro {
+    margin-top: -68px;
+}
+
+.about {
+    margin-left: 45px;
+}
+
+.about-sm {
+    margin-top: -22px;
+    margin-left: 4px; 
+}
+
+.about-info {
+    width: 420px;
+    margin-top: -25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* about section ends here */
+
+/* feedback section */
+#feedback {
+    padding-bottom: 4%;
+}
+.feedback-intro p {
+    font-size: var(--head-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.client-feedback {
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    font-size: 15px;
+}
+
+.client-name {
+    margin-left: -130px;
+    margin-top: 60px;
+}
+
+.client-image {
+    margin-left: 80px;
+}
+
+.fas {
+    font-size: 30px;
+    margin-top: 80%;
+}
+
+/* feedback section ends here */
+
+/* contact section starts here */
+.contact-intro p {
+    font-size: var(--head-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -23px;
+} 

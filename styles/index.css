@@ -83,9 +83,10 @@ nav span {
     margin-top: 11%;
 }
 
-.mural-paint {
+.mural-paint img {
     width: 692px;
-    height: 748px; 
+    height: 650px; 
+    margin-top: -14%;
 }
 
 .hire-btn {
@@ -95,4 +96,33 @@ nav span {
     background: var(--base-color);
     color: var(--primary-color);
     font-weight: bolder;   
+}
+
+.hire-btn:hover {
+    color: var(--primary-color);
+    background: var(--dark-base);
+    transition: .6s all ease-in;
+}
+
+.socials {
+    margin-top: -10%;
+}
+
+.fa:hover, 
+.fab:hover {
+    color: var(--base-color);
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+
+.divider {
+    margin-top: -3%;
+}
+/* hero section ends here */
+
+/* works section starts here */
+.works-intro p {
+    -webkit-text-fill-color: var(--primary-color);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--dark-base);
 }

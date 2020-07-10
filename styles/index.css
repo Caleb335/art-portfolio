@@ -65,7 +65,14 @@ nav span {
 }
 
 .hero-intro span, .stroke {
+    text-transform: uppercase;
     -webkit-text-fill-color: var(--primary-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--dark-base);
+}
+
+.about-intro p {
+    -webkit-text-fill-color: rgb(219, 234, 240);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--dark-base);
 }
@@ -124,7 +131,8 @@ nav span {
 /* hero section ends here */
 
 /* works section starts here */
-.works-intro p {
+.works-intro p,
+.about-intro p {
     font-size: var(--head-font-size);
     font-weight: 900;   
 }
@@ -149,7 +157,6 @@ nav span {
     margin-top: -15%;
 }
 
-
 .img-left {
     margin-left: -7px;
 }
@@ -160,4 +167,24 @@ nav span {
 
 .more {
     color: var(--base-color);
+}
+
+.fal {
+    width: 50px;
+}
+
+.more {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* work section ends here */
+
+/* about section starts here */
+#about {
+    background-image: url(../assets/branch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }

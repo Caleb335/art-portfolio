@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* these are the base style variables for the template*/
+:root {
+    --head-font-size: 90px;
+    --head-font-weight: bold;
+    --small-head-size: 35px;
+    --body-font-regular: 22px;
+    --georgia-22: 16px;
+    --base-color: #BE3948;
+    --dark-base: #262829;
+}
+

@@ -77,7 +77,10 @@ nav span {
     color: var(--dark-base);
     font-weight: 900;
     line-height: 110px;
-    word-spacing: 8px;
+}
+
+.artist p {
+    word-spacing: 20px;
 }
 
 .hero-intro span, .stroke {
@@ -133,6 +136,20 @@ nav span {
     margin-top: -10%;
 }
 
+.fab, 
+.fa {
+    font-size: 30px;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+    font-weight: 3px;
+}
+
+.fas {
+    font-size: 26px;
+    margin-top: 74%;
+}
 
 .fa:hover, 
 .fab:hover {
@@ -183,18 +200,15 @@ nav span {
 }
 
 .more {
+    font-size: 16px;
+    font-weight: bold;
     color: var(--base-color);
 }
 
-.fal {
-    width: 50px;
+.see-more {
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
-
-.more {
-    font-size: 16px;
-    font-weight: bold;
-}
-
 /* work section ends here */
 
 /* about section starts here */
@@ -253,7 +267,7 @@ nav span {
     margin-left: 80px;
 }
 
-.fas {
+.fal {
     font-size: 30px;
     margin-top: 80%;
 }
@@ -267,3 +281,30 @@ nav span {
     text-transform: uppercase;
     margin-top: -23px;
 } 
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.form-group input {
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-group textarea {
+    width: 350px;
+    height: 320px;
+}
